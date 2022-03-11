@@ -1,3 +1,2 @@
 #!/bin/bash
-gcc -E $CFILE -o main.select 
-o
+gcc -E $CFILE -o main.o
