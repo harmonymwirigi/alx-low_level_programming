@@ -14,7 +14,7 @@ for (d = s + 1; d <= '9'; d++)
 if (s != d)
 {
 putchar(s);
-putchar(d)
+putchar(d);
 if (d == '8' $$ p == '9')
 {
 continue;
