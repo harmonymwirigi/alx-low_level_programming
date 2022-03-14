@@ -15,7 +15,7 @@ if (s != d)
 {
 putchar(s);
 putchar(d);
-if (d == '8' && p == '9')
+if (s == '8' && d == '9')
 {
 continue;
 }
