@@ -8,14 +8,14 @@ int main(void)
 {
 char ch;
 char upper;
-for(ch = 'a';ch < 'z';ch++)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
 }
-for(upper = 'A';upper < 'Z';upper++)
+for (upper = 'A'; upper <= 'Z'; upper++)
 {
 putchar(upper);
 }
 putchar('\n');
-return 0;
+return (0);
 }
