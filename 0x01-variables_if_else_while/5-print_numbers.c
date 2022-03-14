@@ -8,9 +8,10 @@ int main(void)
 {
 int number,i;
 number = 10;
-for (i = 0; i < 10; 1 ++)
+for (i = 0; i < 10; i++)
 {
-printf(i + "\n");
+printf(i);
+printf(""\n);
 }   
 return (0);
 }
