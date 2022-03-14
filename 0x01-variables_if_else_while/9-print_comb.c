@@ -13,7 +13,7 @@ putchar(s);
 if (s != '9')
 {
 putchar(',');
-putchar(' ');  
+putchar(' ');
 }
 }
 putchar('\n');
