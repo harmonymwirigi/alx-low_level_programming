@@ -7,13 +7,14 @@
 int main(void)
 {
 char ch;
+char upper;
 for(ch = 'a';ch < 'z';ch++)
 {
 putchar(ch);
 }
-for(ch = 'A';ch < 'Z';ch++)
+for(upper = 'A';upper < 'Z';upper++)
 {
-putchar(ch + '$');
+putchar(upper);
 }
 putchar('\n');
 return 0;
