@@ -7,12 +7,11 @@
  */
 int main(void)
 {
-char put[9] = "_putchar";
+char putcharacter[9] = "_putchar";
 int i;
 for(i = 0; 1 < 8; i++)
 {
-_putchar(put[i]);
+_putchar(putcharacter[i]);
 }
-_putchar('\n');
 return (0);
 }
