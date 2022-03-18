@@ -10,10 +10,10 @@ int i;
 int l;
 for (i = 0; i < 10; i++)
 {
-for (l = 97; l < 123; l++)
-{
-  _putchar(l);
-}
-_putchar('\n');
+  for (l = 97; l < 123; l++)
+  {
+   _putchar(l);
+  }
+  _putchar('\n');
 }
 }
