@@ -3,7 +3,7 @@
  * times_tab;e - that prints the 9 times table
  * Retunr: no return
  */
-int times_table(void)
+void times_table(void)
 {
 int a, b, c;
 for (a = 0; a <= 9; a++)
