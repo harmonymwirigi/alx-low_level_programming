@@ -1,6 +1,6 @@
-#include "main.h"
+#include "manin.h"
 /**
- * times_tab;e - that prints the 9 times table
+ * times_table - that prints the 9 times table
  * Retunr: no return
  */
 void times_table(void)
@@ -12,8 +12,6 @@ _putchar(48);
 for (b = 0; b <= 9; b++)
 {
 c = a * b;
-_putchar(44);
-_putchar(32);
 if (c <= 9)
 {
 _putchar(32);
@@ -27,5 +25,4 @@ _putchar((c % 10) + 48);
 }
 _putchar('\n');
 }
-_putchar('\n');
 }
