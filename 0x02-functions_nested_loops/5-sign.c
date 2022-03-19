@@ -1,10 +1,9 @@
 #include "main.h"
 /**
  * print_sign - show if number is greatter than 0, equal to 0 or less than zero
- * 
  * @n: The input number as an integer
- * Return: 1 if number greater than 1 Return 0 if number is equal to zero
- * Return: -1 if number less than zero
+ * Return: 1 if number greater than 1, 0 if number is equal to zero
+ * -1 if number less than zero
  */
 int print_sign(int n)
 {
@@ -22,5 +21,5 @@ else
 {
 _putchar(45);
 return (-1);
-    }
+}
 }
