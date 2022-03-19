@@ -1,4 +1,4 @@
-#include "manin.h"
+#include "main.h"
 /**
  * times_table - that prints the 9 times table
  * Retunr: no return
