@@ -20,9 +20,9 @@ return (l);
  */
 void puts2(char *str)
 {
-int length = _strlen(str);
+int length = _strlen(str) - 1;
 int k;
-for (k = 0; k < length; k++)
+for (k = 0; k <= length; k += 2)
 {
 _putchar(str[k]);
 }
