@@ -18,7 +18,7 @@ return (l);
  * @str: input string
  * Return: nothing
  */
-void puts(char *str)
+void puts2(char *str)
 {
 int length = _strlen(str);
 int k;
