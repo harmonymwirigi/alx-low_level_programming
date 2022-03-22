@@ -1,11 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * rev_string - functions that reverses
- * @s: input string
- * Return: nothing
- */
-/**
  * _strlen - function to get the length of a string
  * @s: input string
  * Return: length
@@ -19,6 +14,11 @@ l++;
 }
 return (l);
 }
+/**
+ * rev_string - functions to get the reverse of a string
+ * @s: input string
+ * Return: nothing
+ */
 void rev_string(char *s)
 {
 int i, l;
