@@ -4,7 +4,7 @@
  * @s: input string
  * Return: nothing
  */
-void print_rev(chas *s)
+void print_rev(char *s)
 {
 int l = 0;
 while (s[l] != '\0')
