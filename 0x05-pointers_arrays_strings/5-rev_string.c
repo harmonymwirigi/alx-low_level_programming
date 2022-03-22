@@ -2,6 +2,7 @@
 #include <stdio.h>
 /**
  * rev_string - functions that reverses
+ * _strlen -function that gets the lenght of the string
  * @s: input string
  * Return: nothing
  */
