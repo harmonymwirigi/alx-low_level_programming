@@ -12,4 +12,3 @@ harmo = *a;
 *a = *b;
 *b = harmo;
 }
-  
