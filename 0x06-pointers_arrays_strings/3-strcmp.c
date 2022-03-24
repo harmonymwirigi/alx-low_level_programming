@@ -7,15 +7,11 @@
 */
 int _strcmp(char* s1, char* s2)
 {
-	int string1, string2, compare;
-	while (s1)
+	while (*s1 && *s2)
 	{
-		string1++;
+		if (*s1 != *s2)
+			return (*s1 - *s2);
+		s1++, s2++;
 	}
-	while (s2)
-	{
-		string2++;
-	}
-	compare = string1 - string2;
-	return (compare);
+	return (*s1 - *s2);
 }
