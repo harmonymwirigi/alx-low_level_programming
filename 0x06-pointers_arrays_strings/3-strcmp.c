@@ -16,6 +16,6 @@ int _strcmp(char* s1, char* s2)
 	{
 		string2++;
 	}
-	compare = string2 - string1;
+	compare = string1 - string2;
 	return (compare);
 }
