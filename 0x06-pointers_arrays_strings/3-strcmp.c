@@ -7,7 +7,7 @@
 */
 int _strcmp(char* s1, char* s2)
 {
-	int h, string1, string2, compare;
+	int string1, string2, compare;
 	while (s1)
 	{
 		string1++;
