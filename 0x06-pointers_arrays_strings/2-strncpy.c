@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _strncpy - a function that copys the strings.
  * @dest: an input string
@@ -27,6 +26,5 @@ char *_strncpy(char *dest, char *src, int n)
 
 	for (; i < n; i++)
 		*dest++ = *src++;
-
 	return (temp);
 }
