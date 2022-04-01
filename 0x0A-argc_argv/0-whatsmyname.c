@@ -9,7 +9,7 @@
  * Return: Always 0 (Success)
  */
 int main(int argc, char *argv[])
-{i
+{
 	if (argc > 0)
 	{
 		printf("%s\n", argv[0]);
