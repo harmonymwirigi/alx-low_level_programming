@@ -1,8 +1,8 @@
 -Wall -pedantic -Werror -Wextra -c \*.c
 
-ar -rc libholberton.a \*.o
+ar -rc libmy.a \*.o
 
-ar -t libholberton.a
+ar -t libmy.a
 
 0-isupper.o
 0-memset.o
@@ -25,8 +25,8 @@ ar -t libholberton.a
 9-strcpy.o
 \_putchar.o
 
-ranlib libholberton.a
+ranlib libmy.a
 
 creat a main.c file
 
-gcc main.c -L. -lholberton -o quote
+gcc main.c -L. -llibmy -o quote
